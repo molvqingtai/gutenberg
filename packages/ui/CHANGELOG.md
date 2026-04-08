@@ -28,6 +28,7 @@
 -   `Dialog`: Update `Header` layout to support multiple trailing elements alongside the title ([#77161](https://github.com/WordPress/gutenberg/pull/77161), [#77334](https://github.com/WordPress/gutenberg/pull/77334)).
 -   `Dialog`: Use `Text` internally for `Dialog.Title`, adopting the `heading-xl` variant for consistent typography ([#77161](https://github.com/WordPress/gutenberg/pull/77161)).
 -   `Dialog`, `AlertDialog`, `Tooltip`, `Select`: Add `container` prop to `Popup` for custom portal targets ([#77163](https://github.com/WordPress/gutenberg/pull/77163)).
+-   `Dialog`, `AlertDialog`: Add `portalClassName` prop to `Popup`, allowing consumers to set per-instance CSS custom properties (e.g. `--wp-ui-dialog-z-index`) that cascade to both the backdrop and popup ([#76487](https://github.com/WordPress/gutenberg/pull/76487)).
 -   Add defensive styles against global WordPress stylesheets like common.css and forms.css ([#76783](https://github.com/WordPress/gutenberg/pull/76783)).
 -   `VisuallyHidden`: Improve Storybook stories and documentation for the `render` prop composition pattern.
 

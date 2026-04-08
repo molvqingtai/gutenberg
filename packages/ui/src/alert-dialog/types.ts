@@ -116,4 +116,13 @@ export interface PopupProps
 	 * @default 'Cancel'
 	 */
 	cancelButtonText?: string;
+
+	/**
+	 * CSS class applied to the portal container element. Use this to set
+	 * `--wp-ui-dialog-z-index` so it cascades to both the backdrop and popup.
+	 *
+	 * Each dialog instance renders its own portal container, so classes
+	 * set here do not affect other dialog instances.
+	 */
+	portalClassName?: string;
 }
