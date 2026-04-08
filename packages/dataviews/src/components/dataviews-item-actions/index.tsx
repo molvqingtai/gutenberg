@@ -189,6 +189,7 @@ export function ActionModal< Item >( {
 				className={ `dataviews-action-modal dataviews-action-modal__${ kebabCase(
 					action.id
 				) }` }
+				portalClassName="dataviews-action-modal-portal"
 				initialFocus={ initialFocus }
 			>
 				{ action.hideModalHeader ? (
