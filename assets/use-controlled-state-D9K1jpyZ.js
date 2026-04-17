@@ -1,0 +1,1 @@
+import{i as t,g as a}from"./values-CLkWjo4e.js";import{r as e}from"./iframe-pUsM9-7T.js";const s={initial:void 0,fallback:""};function useControlledState(o,i=s){const{initial:l,fallback:r}={...s,...i},[n,u]=e.useState(o),f=t(o);e.useEffect((()=>{f&&n&&u(void 0)}),[f,n]);return[a([o,n,l],r),e.useCallback((t=>{f||u(t)}),[f])]}export{useControlledState as u};
