@@ -49,7 +49,7 @@
 	"types": "build-types",
 	"sideEffects": false,
 	"dependencies": {
-		"comctx": "^1.4.3"
+		"comctx": "^1.6.1"
 	},
 	"publishConfig": {
 		"access": "public"
